@@ -27,7 +27,7 @@ npm install
 npm run dev
 ```
 
-3. Open the URL it gives you (usually http://localhost:5173)
+3. Open the URL it gives you ( http://localhost:5173)
 
 ## Project structure
 ```
