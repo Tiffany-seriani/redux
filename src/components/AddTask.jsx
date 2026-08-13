@@ -9,7 +9,7 @@ function AddTask() {
   function handleSubmit(e) {
     e.preventDefault() // stop page from refreshing lol
 
-    // dont add empty tasks
+    
     if (text.trim() === '') {
       alert('you cant add an empty task!!')
       return
