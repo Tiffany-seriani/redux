@@ -3,10 +3,10 @@ import { useSelector } from 'react-redux'
 import Task from './Task'
 
 function ListTask() {
-  // grabbing the tasks straight from the redux store
+  
   const tasks = useSelector((state) => state.tasks.tasks)
 
-  // filter can be 'all', 'done', or 'notdone'
+  
   const [filter, setFilter] = useState('all')
 
   let tasksToShow = tasks
